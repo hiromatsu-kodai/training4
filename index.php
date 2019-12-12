@@ -13,10 +13,11 @@
 </tr>
 <tr>
 <td>0000</td><td>A</td><td><?php
-  if($a!=0){
+  $a=0;
+  if($a==0){
      if($_POST["name"]=="A" && $_POST["number"]=="0000"){
         echo"○";
-        $a=0;
+        $a=1;
         }
   }
   else{}
