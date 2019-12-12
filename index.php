@@ -18,7 +18,7 @@
      if($_POST["name"]=="A" && $_POST["number"]=="0000")
         echo"○";
         $a=1;
-  else;
+  else
 ?></td>
 </tr>
 <tr> 
@@ -28,7 +28,7 @@
      if($_POST["name"]=="B" && $_POST["number"]=="0001")
         echo"○";
         $b=1;
-  else;
+  else
 ?></td>
 </tr>
 <tr>
@@ -38,7 +38,7 @@
      if($_POST["name"]=="C" && $_POST["number"]=="0002")
         echo"○";
         $c=1;
-  else;
+  else
 ?></td>
 </tr>
 </table>
