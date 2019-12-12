@@ -13,28 +13,39 @@
 </tr>
 <tr>
 <td>0000</td><td>A</td><td><?php
-  if($_POST["name"]=="A" && $_POST["number"]=="0000")
-     echo"○";
+  $a=0;
+  if($a=0)
+     if($_POST["name"]=="A" && $_POST["number"]=="0000")
+        echo"○";
+        $a=1;
+     else
+        echo"×";
   else
-     echo"×";?></td>
+?></td>
 </tr>
 <tr> 
 <td>0001</td><td>B</td><td><?php  
-  $name2="B";
-  $number2="0001";
-  if($name2=="B" && $number2=="0001")
-     echo"○";
+  $b=0;
+  if($b=0)
+     if($_POST["name"]=="B" && $_POST["number"]=="0001")
+        echo"○";
+        $b=1;
+     else
+        echo"×";
   else
-     echo"×";?></td></td>
+?></td>
 </tr>
 <tr>
 <td>0002</td><td>C</td><td><?php  
-  $name3="C";
-  $number3="0004";
-  if($name3=="C" && $number3=="0002")
-     echo"○";
+  $c=0;
+  if($c=0)
+     if($_POST["name"]=="C" && $_POST["number"]=="0002")
+        echo"○";
+        $c=1;
+     else
+        echo"×";
   else
-     echo"×";?></td></td>
+?></td>
 </tr>
 </table>
 </body>
