@@ -17,7 +17,9 @@
   if($a==0){
      if($_POST["name"]=="A" && $_POST["number"]=="0000"){
         echo"○";
-        $a=1;}
+        echo"$a";
+        $a=1;
+        echo"$a";}
   }
   else{}
 ?></td>
