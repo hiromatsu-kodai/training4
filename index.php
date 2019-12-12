@@ -14,8 +14,8 @@
 <tr>
 <td>0000</td><td>A</td><td><?php
   echo $_POST["number"] ."さんのメールアドレスは". $_POST["name"] ."です。";
-  $name1=$_POST["number"] .;
-  $number1=$_POST["name"] .;
+  //$name1=$_POST["number"] .;
+  //$number1=$_POST["name"] .;
   if($name1=="A" && $number1=="0000")
      echo"○";
   else
