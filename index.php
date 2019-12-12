@@ -20,7 +20,6 @@
         $a=1;
      else
         echo"×";
-  else
 ?></td>
 </tr>
 <tr> 
@@ -32,7 +31,7 @@
         $b=1;
      else
         echo"×";
-  else
+  
 ?></td>
 </tr>
 <tr>
@@ -44,7 +43,7 @@
         $c=1;
      else
         echo"×";
-  else
+
 ?></td>
 </tr>
 </table>
