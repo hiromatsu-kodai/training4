@@ -7,7 +7,7 @@
 <body>
 <?php
   echo "現在の点呼の状況";
-  echo "寮生番号"$_POST["number"] ."番は". $_POST["name"] ."さんです。";?>
+?>
 <table border="1" cellspacing="0">
 <tr>
 <td>寮生番号</td><td>氏名</td><td>寮にいるか</td>
