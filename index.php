@@ -6,16 +6,16 @@
 </head>
 <body>
 <?php
-  echo "現在の点呼の状況";
-?>
+  echo "現在の点呼の状況";?>
 <table border="1" cellspacing="0">
 <tr>
 <td>寮生番号</td><td>氏名</td><td>寮にいるか</td>
 </tr>
 <tr>
 <td>0000</td><td>A</td><td><?php
-  $name1=$_POST["name"] .;
-  $number1=$_POST["number"] .;
+  echo $_POST["number"] ."さんのメールアドレスは". $_POST["name"] ."です。";
+  $name1=$_POST["number"] .;
+  $number1=$_POST["name"] .;
   if($name1=="A" && $number1=="0000")
      echo"○";
   else
