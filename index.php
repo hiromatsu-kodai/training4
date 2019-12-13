@@ -6,12 +6,8 @@
 </head>
 <body>
 <?php
-  echo "現在の点呼の状況";
-  include(__DIR__.'/Users/hiroshimatsushunichi/Documents/研究　専攻科/note.txt');
-  $fp=fopen("note.txt","w");
-  fwrite($fp,"◎");
-  fclose($fp);
-  ?>
+  echo "現在の状況";
+?>
 <table border="1" cellspacing="0">
 <tr>
 <td>寮生番号</td><td>氏名</td><td>寮にいるか</td>
