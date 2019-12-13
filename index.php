@@ -7,7 +7,7 @@
 <body>
 <?php
   echo "現在の点呼の状況";
-  include(__DIR__.'//Users/hiroshimatsushunichi/Documents/note.php');
+  include(__DIR__.'/Users/hiroshimatsushunichi/Documents/研究　専攻科/note.txt');
   $fp=fopen("note.txt","w");
   fwrite($fp,"◎");
   fclose($fp);
