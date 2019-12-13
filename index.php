@@ -7,7 +7,7 @@
 <body>
 <?php
   echo "現在の点呼の状況";
-  $fp=fopen("note.txt","w");
+  $fp=fopen("index.txt","w");
   fwrite($fp,"◎");
   fclose($fp);
   ?>
