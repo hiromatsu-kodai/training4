@@ -6,7 +6,11 @@
 </head>
 <body>
 <?php
-  echo "現在の点呼の状況";?>
+  echo "現在の点呼の状況";
+  $fp=fopen("note.txt","w");
+  fwrite($fp,"◎");
+  fclose($fp);
+  ?>
 <table border="1" cellspacing="0">
 <tr>
 <td>寮生番号</td><td>氏名</td><td>寮にいるか</td>
